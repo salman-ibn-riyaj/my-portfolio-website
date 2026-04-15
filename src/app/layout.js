@@ -15,8 +15,13 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Salman Shah || Portfolio",
-  description: "Where you can know about me.",
+  description: "Portfolio of Salman Shah, a MERN Stack Developer specializing in React, Node.js, and modern web technologies.",
+  verification: {
+    google: '5ZPofhLKNM6TvMmVN0gBZm0unhsYaqDgLwkYinCJpck',
+  },
 };
+
+
 
 export default function RootLayout({ children }) {
   return (
