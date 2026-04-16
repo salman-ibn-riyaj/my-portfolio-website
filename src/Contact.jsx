@@ -15,7 +15,7 @@ const Contact = () => {
           href="mailto:salmanibnriyaj@gmail.com?subject=Hello%20from%20Portfolio" // Tomar email ekhane bosao
           className="inline-block px-10 py-4 border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-[#0a192f] transition-all rounded font-mono text-lg"
         >
-          Email Me
+          Mail Me
         </a>
 
       </div>

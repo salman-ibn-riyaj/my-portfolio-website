@@ -1,3 +1,4 @@
+import "aos/dist/aos.css";
 const Skills = () => {
   const skillSet = [
     {
@@ -34,6 +35,7 @@ const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {skillSet.map((item, index) => (
             <div
+              data-aos='flip-down'
               key={index}
               className="bg-[#112240] p-8 rounded-xl border border-blue-900/30 hover:border-blue-400/50 transition-all group"
             >

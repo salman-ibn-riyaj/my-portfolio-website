@@ -1,9 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 const Hero = () => {
+
+
   return (
-    <section className="min-h-screen flex items-center justify-center bg-[#0a192f] text-white px-6 pt-20">
+    <section
+      className="min-h-screen flex items-center justify-center bg-[#0a192f] text-white px-6 pt-20">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Left Side: Text Content */}
         <div className="flex-1 text-center md:text-left">
