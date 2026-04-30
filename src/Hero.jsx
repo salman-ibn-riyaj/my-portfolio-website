@@ -4,7 +4,6 @@ import Link from "next/link";
 
 const Hero = () => {
 
-
   return (
     <section
       className="min-h-screen flex items-center justify-center bg-[#0a192f] text-white px-6 pt-20">
